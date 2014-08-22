@@ -6,6 +6,7 @@
   //= ../Debouncer.js
   //= ../Headroom.js
 
-  window.Headroom = Headroom;
+  module.exports = Headroom;
+  //window.Headroom = Headroom;
 
 }(window, document));

@@ -385,6 +385,7 @@
   };
   Headroom.cutsTheMustard = typeof features !== 'undefined' && features.rAF && features.bind && features.classList;
 
-  window.Headroom = Headroom;
+  module.exports = Headroom;
+  //window.Headroom = Headroom;
 
 }(window, document));
